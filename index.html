@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Run Faster!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Stylish" rel="stylesheet">
+  <!-- Font Awesome Icons! -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <!-- CSS file -->
+  <link rel="stylesheet" href="Assets/style.css">
+</head>
+<body>
+  <!-- Greyhound icon
+    https://cdn.clipart.email/4568ce9eb18b505f69c34d1d40b7c783_running-greyhound-silhouette-at-getdrawingscom-free-for-_1240-1240.jpeg
+  -->
+  <header id="header">
+    <nav id="nav-bar">
+      <div class="left">
+        <!-- img source: "https://cdn.clipart.email/4568ce9eb18b505f69c34d1d40b7c783_running-greyhound-silhouette-at-getdrawingscom-free-for-_1240-1240.jpeg" -->
+        <img id="header-img" alt="Company Logo" src="Assets/img/running-greyhound-mini.jpg">
+      </div>
+      <div class="right">
+        <a class="nav-link" href="#our-motto">Our Motto</a>
+        <a class="nav-link" href="#products">Products</a>
+        <a class="nav-link" href="#video-div">Video</a>
+        <a class="nav-link" href="#community">Community</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="our-motto">
+      <h2>Our Motto</h2>
+      <hr/>
+      <p>Do you wanna break your <abbr title="personal record"><em>PR</em></abbr>? Qualify for the <em>Boston Marathon</em>? Or just <em>run faster</em> and with more <em>pleasure</em>? If so, you're in the right place!</p>
+  
+      <p>We are a small company located in Atlanta, GA, that manufactures <em>handcrafted running shoes</em> which are <em>super cool</em>, lightweight, durable and comfortable! Our training headquarters is the Active Oval Loop in the iconic Piedmont Park right in the heart of Midtown.</p> 
+  
+      <p>We promote a dozen complimentary running events during the year. You are very welcome to join us whenever you wish!</p>
+    </div>
+    <div id="products">
+      <h2>Our Products</h2>
+      <hr/>
+      <div class="items">
+        <div title="Multiple sizes. Super comfortable and durable. You will not believe how light these pairs are!">
+          <p>Running shoes</p>
+          <img src="Assets/img/sport-shoe.png"></img>
+          <p>Price: $49.90</p>
+        </div>
+        <div title="Recover super fast with our all natural organic protein shake! Besides being wonderful for your muscles, it is absolutely delicious!">
+          <p>Protein shake</p>
+          <img src="Assets/img/protein-shake.png"></img>
+          <p>Price: $9.90</p>
+        </div>
+        <div title="Don't let the weather screw up your training sections. This comfortable raincoat is just perfect for a raining day...">
+          <p>Rain coat</p>
+          <img src="Assets/img/coat.png"></img>
+          <p>Price: $42.90</p>
+        </div>
+      </div>
+    </div>
+    <div id="video-div">
+      <h2>Boston Marathon</h2>
+      <hr/>
+      <p>Many of our customers were able to qualify for the <em>iconic Boston Marathon</em> for the very first time following our <em>professional guidance</em> and using our <em>amazing products</em>!</p>
+      <!-- Embbed marathon video -->
+      <p>Watch the inspirational video below and start your journey to the <em>Boston Marathon</em>!</p>
+      <iframe id="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/TEoWRSIZB4Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div id="community">
+      <h2>Our Community</h2>
+      <hr/>
+      
+      <p>Our running club has more than 100 members! We meet regularly to train, hang out, compete, and discuss the last trends in running. Our official meeting spot is in the Active Oval at the Piedmont Park, Atlanta.</p> 
+
+      <div class="img-container">
+        <img src="https://images.unsplash.com/photo-1483153655215-c8fa32ace264?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"></img>
+        <p>Active Oval and the Midtown skyline</p>
+      </div>
+      
+      
+
+      <form action="https://www.freecodecamp.com/email-submit" method="GET" id="form">
+        <fieldset>
+            <legend>If you wanna join our community, please fill in your email address and press Go!</legend>
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <br/>
+            <input type="submit" id="submit" value="Go!">
+        </fieldset>
+        
+        
+      </form>
+    </div>
+  </main>
+  
+  <footer>
+    <!-- Follow us on Twitter, Facebook, Instagram, etc... -->
+    <p>Follow us on</p>
+    <div id="icons">
+      <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+    </div>
+    <div id="credits">Products icons made by <a href="https://www.freepik.com/?__hstc=57440181.54c2657887b6f21659fc756a568f916d.1557840129655.1557840129655.1557840129655.1&__hssc=57440181.2.1557840129655&__hsfp=931619926" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+  </footer>
+  <!-- Script-->
+  <script type="text/javascript" src="Assets/script.js"></script>
+  <!-- freeCodeCamp tests -> 
+  <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  -->
+</body>
+</html>
