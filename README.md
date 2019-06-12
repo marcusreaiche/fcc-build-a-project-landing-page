@@ -4,7 +4,7 @@
 
 See the Project specification at [freeCodeCamp](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page).
 
-You can see a _live demo_ of this page [here](https://marcusreaiche.github.io/build-a-product-landing-page).
+You can see a _live demo_ of this page [here](https://marcusreaiche.github.io/fcc-build-a-project-landing-page/).
 
 
 ### Technology Stack:

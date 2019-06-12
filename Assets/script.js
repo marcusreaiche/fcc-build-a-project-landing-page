@@ -9,7 +9,7 @@ function changePosition() {
   console.log(navbarOffset);
   // Change the position of the main element
   main.style.position = "relative";
-  main.style.top = navbarOffset + "px"; 
+  main.style.top = navbarOffset + "px";
   // Change the position of the footer element
   footer.style.position = "relative";
   footer.style.top = navbarOffset + "px";
